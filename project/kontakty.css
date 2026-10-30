@@ -1,0 +1,309 @@
+.menu-bar {
+  background-color: #4a2f1f;
+  color: white;
+  height: 71px;                    /* pevná výška jako na vzoru */
+}
+
+.menu-bar .obal {
+  display: flex;
+  justify-content: space-between;  /* logo vlevo, odkazy vpravo */
+  align-items: center;
+  height: 100%;
+}
+
+/* Logo: nahoře název, pod ním RESTAURACE s čárami po stranách */
+#logo {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+  margin-left: 28px;
+}
+
+.logo-nazev {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.logo-podnazev {
+  display: flex;                   /* čára - text - čára vedle sebe */
+  align-items: center;
+  gap: 12px;
+  margin-top: 3px;
+  font-size: 11px;
+  letter-spacing: 5px;
+  margin-left: 50px;
+}
+
+/* Čáry vytvoříme pomocí ::before a ::after, nemusí se psát do HTML */
+
+
+   
+.menu-bar nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 28px;
+  margin-right: 28px;
+  padding-bottom: 6px;
+  text-decoration: none;            /* odstraní podtržení */
+}
+
+.menu-bar nav a:hover {
+  color: #e6b552;
+}
+
+#uvod {
+  background-color: #f0d9ab;
+  padding: 23px 0 22px;
+ display: flex;
+    align-items: right;
+    gap: 40px;
+}
+
+body {
+  height:auto;
+}
+
+/* Foto vlevo, text vpravo */
+#text h3 {
+  color:#2c5434;
+}
+
+.o-nas-foto {
+  width: 523px;
+  height: 291px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #6b4429;       
+}
+
+#text {
+ flex: 1;
+}
+
+
+#text h1 {
+  margin: 0 0 16px;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+
+
+#kontakt {
+
+  background-color: #402818;       /* tmavě hnědé pozadí */
+
+  color: white;
+
+  padding: 24px 0 20px;
+
+  text-align: center;              /* vycentruje nadpisy */
+
+}
+
+#kontakt .maly-nadpis {
+
+  margin: 0;
+
+  font-size: 12px;
+
+  letter-spacing: 2px;
+
+  color: #e8d8c0;                  /* na tmavém pozadí světlejší než zelená */
+
+}
+
+#kontakt h2 {
+
+  margin: 4px 0;
+
+  font-size: 30px;
+
+}
+
+#kontakt .podnadpis {
+
+  margin: 0;
+
+  font-size: 14px;
+
+}
+
+/* Světlá karta s mapou a údaji */
+
+.karta {
+
+  display: flex;
+
+  gap: 35px;
+
+  max-width: 945px;
+
+  margin: 18px auto 0;
+
+  padding: 11px;
+
+  background-color: #f6e8d2;
+
+  color: #3a2618;                  /* uvnitř karty zase tmavý text */
+
+  border-radius: 8px;
+
+  text-align: left;
+
+}
+
+.mapa {
+
+  width: 505px;
+
+  height: 184px;
+
+  border: 0;
+
+  border-radius: 4px;
+
+}
+
+/* Údaje pod sebe a svisle na střed vedle mapy */
+
+#udaje {
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  gap: 12px;
+
+}
+
+/* Jeden řádek: ikona vlevo, text vpravo */
+
+.udaj {
+
+  display: flex;
+
+  gap: 18px;
+
+  align-items: flex-start;
+
+}
+
+.udaj p {
+
+  margin: 0;
+
+  font-size: 13px;
+
+  line-height: 1.4;
+
+}
+
+.ikona {
+
+  font-size: 18px;
+
+  width: 24px;                     /* všechny ikony stejně široké, text je pak zarovnaný */
+
+}
+
+/* Tlačítko je tady menší a odsazené od ikon */
+
+#kontakt .tlacitko {         /* nebude se roztahovat na celou šířku */
+  margin: 4px 0 0 42px;
+  padding: 9px 22px;
+  font-size: 13px;
+text-decoration: none;
+  color: white;
+  background-color: #2c5434;
+  border-radius: 4px;
+}
+
+.paticka {
+
+  background-color: #3a2314;
+
+  color: white;
+
+  padding: 24px 0;
+
+}
+
+/* Tři části vedle sebe: logo, údaje, sociální sítě */
+
+.paticka .obal {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+/* Menší verze loga z horního menu */
+
+.logo-mala {
+
+  width: 162px;
+
+}
+
+.logo-mala .logo-nazev {
+
+  font-size: 21px;
+
+}
+
+.logo-mala .logo-podnazev {
+
+  font-size: 8px;
+
+  letter-spacing: 4px;
+
+}
+
+.paticka-udaje {
+
+  display: flex;
+
+  gap: 28px;
+
+  font-size: 12px;
+
+  color: #eadcc6;
+
+}
+
+.paticka-vpravo {
+
+  text-align: right;
+
+}
+
+.socialni a {
+
+  color: white;
+
+  font-size: 13px;
+
+  margin-left: 14px;
+
+}
+
+.drobne {
+
+  margin: 8px 0 0;
+
+  font-size: 10px;
+
+  color: #cdbba2;
+
+}
+
+
