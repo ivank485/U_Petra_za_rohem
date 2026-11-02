@@ -1,0 +1,237 @@
+/* ===== STRÁNKA O NÁS ===== */
+
+/* Víc místa nahoře a dole než na hlavní stránce */
+
+.menu-bar {
+  background-color: #4a2f1f;
+  color: white;
+  height: 71px;                    /* pevná výška jako na vzoru */
+}
+
+.menu-bar .obal {
+  display: flex;
+  justify-content: space-between;  /* logo vlevo, odkazy vpravo */
+  align-items: center;
+  height: 100%;
+}
+
+/* Logo: nahoře název, pod ním RESTAURACE s čárami po stranách */
+#logo {
+  display: flex;
+  flex-direction: column;
+  width: 228px;
+  margin-left: 28px;
+}
+
+.logo-nazev {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.logo-podnazev {
+  display: flex;                   /* čára - text - čára vedle sebe */
+  align-items: center;
+  gap: 12px;
+  margin-top: 3px;
+  font-size: 11px;
+  letter-spacing: 5px;
+  margin-left: 50px;
+}
+
+/* Čáry vytvoříme pomocí ::before a ::after, nemusí se psát do HTML */
+
+
+   
+.menu-bar nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 28px;
+  margin-right: 28px;
+  padding-bottom: 6px;
+  text-decoration: none;            /* odstraní podtržení */
+}
+
+.menu-bar nav a:hover {
+  color: #e6b552;
+}
+
+
+
+
+
+
+#uvod {
+  background-color: #f0d9ab;
+  padding: 23px 0 22px;
+}
+
+#uvod .obal{
+    display: flex;
+  align-items: center;             
+  gap: 60px;
+}
+
+#uvod .text{
+ margin: 0 0 18px;
+ font-size: 16px;
+ lin-height: 1,6; 
+    max-width: 440px;
+    text-align:center
+}
+
+.odkazy {
+    display: inline-block;
+    background-color: #355e3b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 33px;
+    margin: 8px 5px 0 0;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.odkazy:hover {
+    background-color: #102c15;
+}
+
+ 
+
+
+/* Fotka vpravo je skoro čtvercová */
+#uvod.o-nas-foto {
+  width: 460px;
+  height: 420px;
+}
+
+/* Odstavce jsou širší než na hlavní stránce */
+.o-nas-popis {
+  max-width: 440px;
+  margin: 0 0 18px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #5a4535;
+}
+
+/* Tři vlastnosti vedle sebe */
+.vlastnosti {
+  padding: 35px 0 45px;
+}
+
+.vlastnosti .obal {
+  display: flex;
+}
+
+.vlastnost {
+  flex: 1;                         /* všechny tři stejně široké */
+  padding: 10px 25px;
+  text-align: center;
+  border-left: 1px solid #e3d2b4;  /* svislá čára mezi nimi */
+}
+
+.vlastnost:first-child {
+  border-left: none;               /* první čáru vlevo nechceme */
+}
+
+.vlastnost-ikona {
+  display: block;
+  font-size: 38px;
+  margin-bottom: 8px;
+}
+
+.vlastnost h3 {
+  margin: 0 0 6px;
+  font-size: 17px;
+}
+
+.vlastnost p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #5a4535;
+}
+
+.paticka {
+
+  background-color: #3a2314;
+
+  color: white;
+
+  padding: 24px 0;
+
+}
+
+/* Tři části vedle sebe: logo, údaje, sociální sítě */
+
+.paticka .obal {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+/* Menší verze loga z horního menu */
+
+.logo-mala {
+
+  width: 162px;
+
+}
+
+.logo-mala .logo-nazev {
+
+  font-size: 21px;
+
+}
+
+.logo-mala .logo-podnazev {
+
+  font-size: 8px;
+
+  letter-spacing: 4px;
+
+}
+
+.paticka-udaje {
+
+  display: flex;
+
+  gap: 28px;
+
+  font-size: 12px;
+
+  color: #eadcc6;
+
+}
+
+.paticka-vpravo {
+
+  text-align: right;
+
+}
+
+.socialni a {
+
+  color: white;
+
+  font-size: 13px;
+
+  margin-left: 14px;
+
+}
+
+.drobne {
+
+  margin: 8px 0 0;
+
+  font-size: 10px;
+
+  color: #cdbba2;
+
+}
+
