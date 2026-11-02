@@ -1,18 +1,18 @@
-/* ===== HORNÍ MENU ===== */
+
 .menu-bar {
   background-color: #4a2f1f;
   color: white;
-  height: 71px;                    /* pevná výška jako na vzoru */
+  height: 71px;                    
 }
 
 .menu-bar .obal {
   display: flex;
-  justify-content: space-between;  /* logo vlevo, odkazy vpravo */
+  justify-content: space-between;  
   align-items: center;
   height: 100%;
 }
 
-/* Logo: nahoře název, pod ním RESTAURACE s čárami po stranách */
+
 #logo {
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
 }
 
 .logo-podnazev {
-  display: flex;                   /* čára - text - čára vedle sebe */
+  display: flex;                   
   align-items: center;
   gap: 12px;
   margin-top: 3px;
@@ -37,7 +37,6 @@
   margin-left: 50px;
 }
 
-/* Čáry vytvoříme pomocí ::before a ::after, nemusí se psát do HTML */
 
 
    
@@ -48,20 +47,20 @@
   margin-left: 28px;
   margin-right: 28px;
   padding-bottom: 6px;
-  text-decoration: none;            /* odstraní podtržení */
+  text-decoration: none;            
 }
 
 .menu-bar nav a:hover {
   color: #e6b552;
 }
 
-/* ===== ÚVOD ===== */
+
 .uvod {
   background-color: #f0d9ab;
   padding: 23px 0 22px;
 }
 
-/* Foto vlevo, text vpravo */
+
 .uvod .obal {
   display: flex;
   align-items: center;             
@@ -123,13 +122,10 @@ text-align: right;
   font-size: 30px;
 }
 
-.podnadpis {
-  margin: 0;
-  font-size: 15px;
-}
 
 
-.jidla {
+
+#jidla {
   display: flex;
   gap: 32px;
   max-width: 930px;              
@@ -169,17 +165,17 @@ text-align: right;
 
 
 
-/* ===== KDE NÁS NAJDETE ===== */
+
 
 #kontakt {
 
-  background-color: #402818;       /* tmavě hnědé pozadí */
+  background-color: #402818;       
 
   color: white;
 
   padding: 24px 0 20px;
 
-  text-align: center;              /* vycentruje nadpisy */
+  text-align: center;              
 
 }
 
@@ -191,7 +187,7 @@ text-align: right;
 
   letter-spacing: 2px;
 
-  color: #e8d8c0;                  /* na tmavém pozadí světlejší než zelená */
+  color: #e8d8c0;                  
 
 }
 
@@ -211,9 +207,8 @@ text-align: right;
 
 }
 
-/* Světlá karta s mapou a údaji */
 
-.karta {
+#karta {
 
   display: flex;
 
@@ -227,7 +222,7 @@ text-align: right;
 
   background-color: #f6e8d2;
 
-  color: #3a2618;                  /* uvnitř karty zase tmavý text */
+  color: #3a2618;                  
 
   border-radius: 8px;
 
@@ -247,7 +242,6 @@ text-align: right;
 
 }
 
-/* Údaje pod sebe a svisle na střed vedle mapy */
 
 #udaje {
 
@@ -261,7 +255,7 @@ text-align: right;
 
 }
 
-/* Jeden řádek: ikona vlevo, text vpravo */
+
 
 .udaj {
 
@@ -287,13 +281,13 @@ text-align: right;
 
   font-size: 18px;
 
-  width: 24px;                     /* všechny ikony stejně široké, text je pak zarovnaný */
+  width: 24px;                     
 
 }
 
-/* Tlačítko je tady menší a odsazené od ikon */
 
-#kontakt .tlacitko {         /* nebude se roztahovat na celou šířku */
+
+#kontakt .tlacitko {         
   margin: 4px 0 0 42px;
   padding: 9px 22px;
   font-size: 13px;
@@ -303,21 +297,22 @@ text-decoration: none;
   border-radius: 4px;
 }
 
-/* ===== PATIČKA ===== */
 
-.paticka {
+
+#paticka {
 
   background-color: #3a2314;
 
   color: white;
 
   padding: 24px 0;
+  
 
 }
 
-/* Tři části vedle sebe: logo, údaje, sociální sítě */
 
-.paticka .obal {
+
+#paticka .obal {
 
   display: flex;
 
@@ -327,7 +322,7 @@ text-decoration: none;
 
 }
 
-/* Menší verze loga z horního menu */
+
 
 .logo-mala {
 
@@ -349,7 +344,7 @@ text-decoration: none;
 
 }
 
-.paticka-udaje {
+#paticka-udaje {
 
   display: flex;
 
@@ -361,7 +356,7 @@ text-decoration: none;
 
 }
 
-.paticka-vpravo {
+#paticka-vpravo {
 
   text-align: right;
 

@@ -1,21 +1,18 @@
-/* ===== STRÁNKA O NÁS ===== */
-
-/* Víc místa nahoře a dole než na hlavní stránce */
 
 .menu-bar {
   background-color: #4a2f1f;
   color: white;
-  height: 71px;                    /* pevná výška jako na vzoru */
+  height: 71px;                    
 }
 
 .menu-bar .obal {
   display: flex;
-  justify-content: space-between;  /* logo vlevo, odkazy vpravo */
+  justify-content: space-between;  
   align-items: center;
   height: 100%;
 }
 
-/* Logo: nahoře název, pod ním RESTAURACE s čárami po stranách */
+
 #logo {
   display: flex;
   flex-direction: column;
@@ -31,7 +28,7 @@
 }
 
 .logo-podnazev {
-  display: flex;                   /* čára - text - čára vedle sebe */
+  display: flex;                   
   align-items: center;
   gap: 12px;
   margin-top: 3px;
@@ -40,7 +37,7 @@
   margin-left: 50px;
 }
 
-/* Čáry vytvoříme pomocí ::before a ::after, nemusí se psát do HTML */
+
 
 
    
@@ -51,7 +48,7 @@
   margin-left: 28px;
   margin-right: 28px;
   padding-bottom: 6px;
-  text-decoration: none;            /* odstraní podtržení */
+  text-decoration: none;            
 }
 
 .menu-bar nav a:hover {
@@ -100,13 +97,13 @@
  
 
 
-/* Fotka vpravo je skoro čtvercová */
+
 #uvod.o-nas-foto {
   width: 460px;
   height: 420px;
 }
 
-/* Odstavce jsou širší než na hlavní stránce */
+
 .o-nas-popis {
   max-width: 440px;
   margin: 0 0 18px;
@@ -115,7 +112,7 @@
   color: #5a4535;
 }
 
-/* Tři vlastnosti vedle sebe */
+
 .vlastnosti {
   padding: 35px 0 45px;
 }
@@ -125,15 +122,13 @@
 }
 
 .vlastnost {
-  flex: 1;                         /* všechny tři stejně široké */
+  flex: 1;                         
   padding: 10px 25px;
   text-align: center;
-  border-left: 1px solid #e3d2b4;  /* svislá čára mezi nimi */
+  border-left: 1px solid #e3d2b4;  
 }
 
-.vlastnost:first-child {
-  border-left: none;               /* první čáru vlevo nechceme */
-}
+
 
 .vlastnost-ikona {
   display: block;
@@ -153,19 +148,20 @@
   color: #5a4535;
 }
 
-.paticka {
+#paticka {
 
   background-color: #3a2314;
-
+  position: absolute;
+  bottom: 0;
   color: white;
-
+  width: 98%;
   padding: 24px 0;
+  margin: auto;
 
 }
 
-/* Tři části vedle sebe: logo, údaje, sociální sítě */
 
-.paticka .obal {
+#paticka .obal {
 
   display: flex;
 
@@ -175,7 +171,7 @@
 
 }
 
-/* Menší verze loga z horního menu */
+
 
 .logo-mala {
 
@@ -197,7 +193,7 @@
 
 }
 
-.paticka-udaje {
+#paticka-udaje {
 
   display: flex;
 
@@ -209,7 +205,7 @@
 
 }
 
-.paticka-vpravo {
+#paticka-vpravo {
 
   text-align: right;
 

@@ -1,19 +1,19 @@
-/* ===== HORNÍ MENU ===== */
+
 .menu-bar {
   background-color: #4a2f1f;
   color: white;
-  height: 71px;                    /* pevná výška jako na vzoru */
+  height: 71px;                    
 }
 
 .menu-bar .obal {
   display: flex;
-  justify-content: space-between;  /* logo vlevo, odkazy vpravo */
+  justify-content: space-between;  
   align-items: center;
   height: 100%;
   
 }
 
-/* Logo: nahoře název, pod ním RESTAURACE s čárami po stranách */
+
 #logo {
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
 }
 
 .logo-podnazev {
-  display: flex;                   /* čára - text - čára vedle sebe */
+  display: flex;                   
   align-items: center;
   gap: 12px;
   margin-top: 3px;
@@ -38,7 +38,7 @@
   margin-left: 50px;
 }
 
-/* Čáry vytvoříme pomocí ::before a ::after, nemusí se psát do HTML */
+
 
 
    
@@ -49,20 +49,20 @@
   margin-left: 28px;
   margin-right: 28px;
   padding-bottom: 6px;
-  text-decoration: none;            /* odstraní podtržení */
+  text-decoration: none;            
 }
 
 .menu-bar nav a:hover {
   color: #e6b552;
 }
 
-/* ===== ÚVOD ===== */
+
 #uvod {
   background-color: #f0d9ab;
   padding: 23px 0 22px;
 }
 
-/* Foto vlevo, text vpravo */
+
 .uvod .obal {
   display: flex;
   align-items: center;             
@@ -167,7 +167,7 @@
 
 
 
-.paticka {
+#paticka {
 
   background-color: #3a2314;
 
@@ -177,9 +177,9 @@
 
 }
 
-/* Tři části vedle sebe: logo, údaje, sociální sítě */
 
-.paticka .obal {
+
+#paticka .obal {
 
   display: flex;
 
@@ -189,7 +189,7 @@
 
 }
 
-/* Menší verze loga z horního menu */
+
 
 .logo-mala {
 
@@ -211,7 +211,7 @@
 
 }
 
-.paticka-udaje {
+#paticka-udaje {
 
   display: flex;
 
@@ -223,7 +223,7 @@
 
 }
 
-.paticka-vpravo {
+#paticka-vpravo {
 
   text-align: right;
 
