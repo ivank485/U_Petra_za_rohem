@@ -1,10 +1,10 @@
-.menu-bar {
+.menubar {
   background-color: #4a2f1f;
   color: white;
   height: 71px;                    
 }
 
- .obal {
+.menubar .obal {
   display: flex;
   justify-content: space-between;  
   align-items: center;
@@ -19,14 +19,14 @@
   margin-left: 28px;
 }
 
-.logo-nazev {
+.logonazev {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
   line-height: 1.1;
 }
 
-.logo-podnazev {
+.logopodnazev {
   display: flex;                   
   align-items: center;
   gap: 12px;
@@ -40,7 +40,7 @@
 
 
    
-.menu-bar nav a {
+.menubar nav a {
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -50,7 +50,7 @@
   text-decoration: none;            
 }
 
-.menu-bar nav a:hover {
+.menubar nav a:hover {
   color: #e6b552;
 }
 
@@ -71,7 +71,7 @@ body {
   color:#2c5434;
 }
 
-.o-nas-foto {
+.onasfoto {
   width: 523px;
   height: 291px;
   object-fit: cover;
@@ -93,122 +93,76 @@ body {
 
 
 #kontakt {
-
   background-color: #402818;       
-
   color: white;
-
   padding: 24px 0 20px;
-
   text-align: center;              
-  margin: auto; 
 }
 
 #kontakt .maly-nadpis {
-
   margin: 0;
-
   font-size: 12px;
-
   letter-spacing: 2px;
-
   color: #e8d8c0;                  
-
 }
 
 #kontakt h2 {
-
   margin: 4px 0;
-
   font-size: 30px;
-
 }
 
 #kontakt .podnadpis {
-
   margin: 0;
-
   font-size: 14px;
-
 }
 
 
 
 .karta {
-
   display: flex;
-
   gap: 35px;
-
   max-width: 945px;
-
   margin: 18px auto 0;
-
   padding: 11px;
-
   background-color: #f6e8d2;
-
-  color: #3a2618;                  
+  color: #3a2618;                
   border-radius: 8px;
-
   text-align: left;
-
 }
 
 .mapa {
-
   width: 505px;
-
   height: 184px;
-
   border: 0;
-
   border-radius: 4px;
-
 }
 
 
 
 #udaje {
-
   display: flex;
-
   flex-direction: column;
-
   justify-content: center;
-
   gap: 12px;
-
 }
 
 
 
 .udaj {
-
   display: flex;
-
   gap: 18px;
-
   align-items: flex-start;
-
 }
 
 .udaj p {
-
   margin: 0;
-
   font-size: 13px;
-
   line-height: 1.4;
-
 }
 
 .ikona {
-
   font-size: 18px;
-
-  width: 24px;                     
-
+  width: 24px;                
 }
 
 
@@ -223,86 +177,57 @@ text-decoration: none;
   border-radius: 4px;
 }
 
-#paticka {
-
+.paticka {
   background-color: #3a2314;
-
   color: white;
-
   padding: 24px 0;
-
 }
 
 
 
-#paticka .obal {
-
+.paticka .obal {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 
 }
 
 
 
-.logo-mala {
-
+.logomala {
   width: 162px;
-
 }
 
-.logo-mala .logo-nazev {
-
+.logomala .logonazev {
   font-size: 21px;
-
 }
 
-.logo-mala .logo-podnazev {
-
+.logomala .logopodnazev {
   font-size: 8px;
-
   letter-spacing: 4px;
-
 }
 
-#paticka-udaje {
-
+.patickaudaje {
   display: flex;
-
   gap: 28px;
-
   font-size: 12px;
-
   color: #eadcc6;
-
 }
 
-#paticka-vpravo {
-
+.patickavpravo {
   text-align: right;
-
 }
 
 .socialni a {
-
   color: white;
-
   font-size: 13px;
-
   margin-left: 14px;
-
 }
 
 .drobne {
-
   margin: 8px 0 0;
-
   font-size: 10px;
-
   color: #cdbba2;
-
 }
 
 
